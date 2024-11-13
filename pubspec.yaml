@@ -42,6 +42,7 @@ dependencies:
   flutter_svg: ^2.0.11
   desktop_window: ^0.4.2
   win32: ^5.7.2
+  flutter_launcher_icons: ^0.14.1
 
 dev_dependencies:
   flutter_test:
@@ -73,6 +74,13 @@ flutter:
     - assets/dlls/hoowave_memory_patch.dll
     - assets/icons/github.svg
     - assets/logo/logo.png
+    - assets/logo/logo.ico
+
+  flutter_launcher_icons:
+    android: false
+    ios: false
+    windows:
+      image_path: "assets/logo/logo.png"
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
