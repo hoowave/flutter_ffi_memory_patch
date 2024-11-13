@@ -13,7 +13,7 @@ C++로 작성된 DLL을 통해 Windows API와 상호작용하며, 특정 프로�
 ## 설치 및 실행 방법
 1. 이 저장소를 클론합니다.
 ```shell
-git clone https://github.com/hoowave/flutter_ffi_windows_memory_patch.git
+git clone https://github.com/hoowave/flutter_ffi_memory_patch.git
 ```
 2. 필요한 패키지를 설치합니다.
 ```shell
