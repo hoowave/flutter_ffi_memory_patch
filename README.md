@@ -1,5 +1,10 @@
 # flutter_ffi_windows_memory_patch
 
+<div style="display: flex; justify-content: space-between;">
+  <img src="screenshot/process.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+  <img src="screenshot/memory.png" alt="Image 2" width="45%" />
+</div>
+
 이 프로그램은 Dart와 Flutter 기반으로, Windows 플랫폼에서 동작하는 메모리 패치 프로그램입니다.<br>
 C++로 작성된 DLL을 통해 Windows API와 상호작용하며, 특정 프로세스의 메모리에 접근하여 데이터를 읽고 수정할 수 있습니다.<br>
 주로 FFI(Foreign Function Interface)를 통해 C++의 기능을 Dart와 연동하여 구현되었으며, GetX 아키텍처를 사용해 상태관리를 효율적으로 처리합니다.
