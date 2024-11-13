@@ -60,7 +60,7 @@ class Init extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: "Hoowave Memory Editor",
+      title: "Hoowave Memory Patch",
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
       themeMode: ThemeMode.light,

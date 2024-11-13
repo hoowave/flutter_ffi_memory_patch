@@ -76,11 +76,11 @@ flutter:
     - assets/logo/logo.png
     - assets/logo/logo.ico
 
-  flutter_launcher_icons:
-    android: false
-    ios: false
-    windows:
-      image_path: "assets/logo/logo.png"
+flutter_launcher_icons:
+  android: false
+  ios: false
+  windows:
+    image_path: "assets/logo/logo.png"
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
