@@ -15,7 +15,6 @@ class ProcessController extends GetxController {
 
   ProcessController(this.processService);
 
-  final Env _env = Env.instance;
   final ScrollController scrollController = ScrollController();
   final RxInt selectedProcessIndex = 65535.obs;
   final RxList<ProcessModel> processList = <ProcessModel>[].obs;
@@ -58,7 +57,7 @@ class ProcessController extends GetxController {
     }
     if (!processService.libraryService.getLoadStatus()) {
       CommonDialog.error(
-          content: "${_env.getLibName()}\nNot Load",
+          content: "${Env.libName}\nNot Load",
           onRetryPressed: () {
             exit(0);
           });

@@ -21,6 +21,8 @@ class Env {
 
   static Size get appSize => const Size(400, 600);
 
+  static String get libName => "hoowave_memory_patch.dll";
+
   late BuildType _buildType;
 
   Env(BuildType buildType) {
@@ -30,10 +32,6 @@ class Env {
   factory Env.newInstance(BuildType buildType) {
     _instance ??= Env(buildType);
     return _instance!;
-  }
-
-  String getLibName(){
-    return "hoowave_memory_patch.dll";
   }
 
   Future<void> setWindow() async{
